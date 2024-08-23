@@ -8,6 +8,7 @@ export default class Pokemon {
         this.weight = data.weight / 10 + " kg";
         this.height = data.height / 10 + " m";
         this.types = data.types.map(type => type.type.name)
+        
     }
 
 }
